@@ -13,7 +13,8 @@ Built a full Job Board backend (Job Seekers / Admins) with Node.js, Express & Mo
 ✅ Error handling: custom AppError + async wrapper for clean & modern error flow.
 ✅ Logging & monitoring: request logs with fs + morgan, timestamps with Luxon.
 📦 Stack & Tools: Node, Express, MongoDB, Mongoose, JWT, bcrypt, ajv, ajv-formats, validator, helmet, luxon, faker, morgan, cookie-parser, nodemon.
-Fun fact 😂 : I tried to feed the app 1,000,000 docs per collection (because why not torture my laptop?), but my poor machine tapped out — so I snapped a screenshot (it’s the 3rd image) and scaled back. Final test data: ~500K users, 200K jobs, 50K applications — the dataset my laptop actually allowed me to chew. Still big enough to stress indexes, aggregation and explain() plans, and to prove the API behaves under load.
+Fun fact :
+I tried to feed the app 1,000,000 docs per collection (because why not torture my laptop?), but my poor machine tapped out — so I snapped a screenshot (it’s the 3rd image) and scaled back. Final test data: ~500K users, 200K jobs, 50K applications — the dataset my laptop actually allowed me to chew. Still big enough to stress indexes, aggregation and explain() plans, and to prove the API behaves under load.
 🔒 Security — what I protected against (and how):
 •	XSS (Cross-site Scripting): sanitized outputs, used helmet headers and a strict Content-Security-Policy so injected scripts can’t run.
 •	CSRF (Cross-Site Request Forgery): use sameSite & httpOnly cookies and token-based auth for stateful flows; protect sensitive POST/DELETE routes with CSRF tokens if needed.

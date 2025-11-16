@@ -34,3 +34,5 @@ It’s not just CRUD. I mixed in real-world patterns: secure auth, role-based ac
 If you wanna see the repo, API docs, or even some of the explain() results I ran – drop me a DM 👇
 
 <img width="468" height="639" alt="image" src="https://github.com/user-attachments/assets/da11492d-cd1e-4be7-8a01-2a6fd380a363" />
+
+Pics of the project : ("https://drive.google.com/drive/folders/1m2Hg6WBA5Qtr2qWAO7LAbtpmGDIiBVso?usp=sharing")
